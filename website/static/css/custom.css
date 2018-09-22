@@ -1,9 +1,9 @@
 /* your custom css */
 
 .homeContainer {
-  background: #282e3a;
+  background: #132b36;
   color: #fff;
-  background-image: linear-gradient(180deg, #269eac, #1e545a);
+  /* background-image: linear-gradient(180deg, #269eac, #1e545a); */
 }
 
 .projectTitle,
@@ -20,68 +20,67 @@
   margin: 10px 0;
 }
 
-.productShowcaseSection, .space-bg{
-  background: url(../img/patterns/performance-2.svg) repeat;
+.productShowcaseSection,
+.space-bg {
+  background: #132b36;
   padding: 10px 0;
-  margin: 20px 0;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
-  border-color: #d8ebee57;
+  color: white;
 }
 
-.feature-list ul{
+.feature-list ul {
   list-style: none;
 }
 
-.feature-list li:before { 
-  content:''; 
-  display:inline-block; 
-  height:1em; 
-  width:1em; 
-  background-image:url('https://image.flaticon.com/icons/svg/190/190411.svg'); 
-  background-size:contain; 
-  background-repeat:no-repeat; 
-  padding-left: 2em; 
-  }
+.feature-list li:before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url("https://image.flaticon.com/icons/svg/190/190411.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 2em;
+}
 
-/* .space-bg img{
-  box-shadow: 1px 1px 10px 0px #269eacab;
-} */
+.darkest {
+  background: #182025;
+}
 
-.mainContainer{
+.contribute .content.row {
+  margin: 0;
+}
+
+.what-is-garie .content {
+  padding: 0;
+}
+
+.mainContainer {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #ccc;
+}
+
+.container .gridBlock .blockContent p {
+  line-height: 1.8;
+}
+
+.container .wrapper .alignCenter h2 {
   padding-bottom: 0;
 }
 
-.container .gridBlock .blockContent p{
+.container .wrapper .alignCenter h2 {
+  color: white;
+}
+
+.features p {
   line-height: 1.8;
 }
 
-.container .wrapper .alignCenter h2{
-  padding-bottom:0;
-}
-
-.container .wrapper .alignCenter h2{
-  color: #46aebb;
-}
-
-.features p{
-  line-height: 1.8;
-}
-
-.features h3{
+.features h3 {
   font-size: 7rem;
   font-weight: 100;
-  color: #fff;
-  letter-spacing: -1px;
+  color: #d341ff;
   margin: 0;
-  padding: 0;
-  line-height: 1;
-  text-shadow: 3px 3px 0 rgba(0,0,0,0.15);
-  position: relative;
-  z-index: 2;
-  display: inline-block;
-  background: #269eac;
-  padding: 10px 5px;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -99,12 +98,17 @@
 @media only screen and (min-width: 1500px) {
 }
 
+.fixedHeaderContainer {
+  background-image: linear-gradient(90deg, #7874ff, #ff59ff);
+}
 
 .fixedHeaderContainer header h2 {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
-    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "San Francisco", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 400;
+}
+.fixedHeaderContainer header .headerTitle {
+  letter-spacing: 7px;
 }
 
 .splash {
@@ -154,7 +158,7 @@
 
 .splash .shadow {
   position: absolute;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), transparent);
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), transparent); */
   left: 0;
   right: 0;
   bottom: 0;
@@ -304,9 +308,9 @@ pre code {
   line-height: 100%;
 }
 
-.mainContainer .post p code{
+.mainContainer .post p code {
   background: #004a8e;
-  color:white;
+  color: white;
 }
 
 .mainContainer .wrapper p,
@@ -396,7 +400,7 @@ footer iframe {
 }
 
 .warning {
-    background-color: rgb(253, 245, 212);
-    border-left: 4px solid rgb(241, 196, 15);
-    padding: 12px;
+  background-color: rgb(253, 245, 212);
+  border-left: 4px solid rgb(241, 196, 15);
+  padding: 12px;
 }

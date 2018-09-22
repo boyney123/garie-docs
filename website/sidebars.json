@@ -1,10 +1,17 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Using Garie": [
+      "using-garie/introduction",
+      "using-garie/why-performance"
+    ],
+    "Getting Started": [
+      "getting-started/installation"
+    ]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": [
+      "doc4",
+      "doc5"
+    ]
   }
 }

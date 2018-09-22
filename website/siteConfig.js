@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: "Garie", // Title for your website.
+  title: "garie", // Title for your website.
   tagline: "An open source toolkit to monitor web performance",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
@@ -37,19 +37,19 @@ const siteConfig = {
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
-  headerLinks: [{ doc: "doc1", label: "Docs" }, { doc: "doc4", label: "API" }, { page: "help", label: "Help" }, { blog: true, label: "Blog" }],
+  headerLinks: [{ doc: "using-garie/introduction", label: "Getting Started" }, { doc: "getting-started/installation", label: "Docs" }, { blog: true, label: "Blog" }],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/garie.png",
+  // headerIcon: "img/garie.png",
   footerIcon: "img/docusaurus.svg",
   favicon: "img/favicon.png",
 
   /* Colors for website */
   colors: {
-    primaryColor: "#259eac",
+    primaryColor: "#7874ff",
     secondaryColor: "#6f9bf2",
     textColor: "#000000"
   },
