@@ -101,6 +101,11 @@
 .fixedHeaderContainer {
   background-image: linear-gradient(90deg, #7874ff, #ff59ff);
 }
+@media only screen and (max-width: 1024px) {
+  .navigationSlider .slidingNav ul {
+    background-image: linear-gradient(90deg, #7874ff, #ff59ff);
+  }
+}
 
 .fixedHeaderContainer header h2 {
   font-family: "San Francisco", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "Helvetica Neue", Helvetica, sans-serif;
@@ -309,7 +314,7 @@ pre code {
 }
 
 .mainContainer .post p code {
-  background: #004a8e;
+  background: #7f6fff;
   color: white;
 }
 
@@ -403,4 +408,22 @@ footer iframe {
   background-color: rgb(253, 245, 212);
   border-left: 4px solid rgb(241, 196, 15);
   padding: 12px;
+}
+
+.navigationSlider .slidingNav ul li a:focus,
+.navigationSlider .slidingNav ul li a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+  background: none;
+}
+
+/* Documentation */
+
+.docsNavContainer {
+  margin: 0;
+}
+
+.docMainWrapper .mainContainer {
+  padding-top: 40px;
+  color: #484848;
 }

@@ -101,10 +101,10 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: "Collects performance metrics using Garie Plugins (Lighthouse, Google Pagespeed-insights, Browsertime, and more...)",
+        content: "Collects web performance data across differnt tools and makes the data easily assessable.",
         image: "https://image.flaticon.com/icons/svg/1055/1055687.svg",
         imageAlign: "top",
-        title: "Monitor Web Performance"
+        title: "Web performance data"
       },
       {
         content: "Configurable, Automatic collection of metrics, Webhook support, Lighthouse Reports, Performance Videos and more...",
@@ -113,7 +113,7 @@ const Features = () => (
         title: "Features"
       },
       {
-        content: "Preconfigured dashboards out the box. Review lighthouse reports at any time & view audit videos",
+        content: "Preconfigured and customisable dashboards, historic lighthouse reports & performance videos.",
         image: "https://image.flaticon.com/icons/svg/1035/1035688.svg",
         imageAlign: "top",
         title: "Dashboards, Reports & Videos"
