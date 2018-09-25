@@ -89,7 +89,18 @@
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 736px) {
+  .projectImage img {
+    width: 100%;
+  }
+
+  .mainContainer img {
+    width: 100%;
+  }
+
+  .mainContainer .blockElement {
+    margin: 25px 0 50px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
