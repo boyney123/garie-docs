@@ -22,8 +22,8 @@ This option is used to trigger the collection of metrics. For example by default
 
 Here are some cron examples:
 
-- `* 10 * * * *` - At 30 minutes
-- `0 */10 * * * *` - Every 30 minutes
+- `* 30 * * * *` - At 30 minutes
+- `0 */30 * * * *` - Every 30 minutes
 - `0 */30 9-17 * * *` - Every 30 minutes between 9:00am and 5:00pm
 - `0 */30 9-17 * * *` - Every 30 minutes between 9:00am and 5:00pm
 - `0 */4 * * *` - Every 4 hours
