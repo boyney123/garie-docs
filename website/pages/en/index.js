@@ -101,22 +101,22 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: "Collects web performance data across differnt tools and makes the data easily assessable.",
+        content: "Collects performance metrics and makes the data visible through reports, videos and graphs.",
         image: "https://image.flaticon.com/icons/svg/1055/1055687.svg",
         imageAlign: "top",
-        title: "Web performance data"
+        title: "Performance Metrics"
       },
       {
-        content: "Configurable, Automatic collection of metrics, Webhook support, Lighthouse Reports, Performance Videos and more...",
+        content: "Configurable, CRON Job, Webhooks, Reports, Videos, Preconfigured dashboards and more...",
         image: "https://image.flaticon.com/icons/svg/190/190411.svg",
         imageAlign: "top",
         title: "Features"
       },
       {
-        content: "Preconfigured and customisable dashboards, historic lighthouse reports & performance videos.",
-        image: "https://image.flaticon.com/icons/svg/1035/1035688.svg",
+        content: "Plugin architecture built with Docker. Get installed and setup with one command.",
+        image: "https://image.flaticon.com/icons/svg/919/919853.svg",
         imageAlign: "top",
-        title: "Dashboards, Reports & Videos"
+        title: "Setup in Minutes"
       }
     ]}
   </Block>
@@ -201,14 +201,66 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          <div className="darkest">
+          <div className="feature-dark">
             <Features />
           </div>
           <div className="features">
-            <div className="space-bg">
+            <div className="feature feature-light">
               <div class="content row">
                 <div class="col">
-                  <h3>How it works</h3>
+                  <h3>Keep an eye on web performance</h3>
+                  <p>
+                    Get started within minutes and start monitoring your applications performance. Garie uses Lighthouse, Pagespeed Insights & Browsertime to collect metrics. These metrics are
+                    visualised with premade dashboards.
+                  </p>
+
+                  <a class="learnmore" href="/docs/using-garie/introduction">
+                    Learn more
+                  </a>
+                </div>
+                <div class="col center">
+                  <img src={imgUrl("/docs/grafana/dashboard-example-2.png")} />
+                </div>
+              </div>
+            </div>
+            <div className="feature-dark feature">
+              <div class="content row">
+                <div class="col center">
+                  <img src={imgUrl("/docs/lighthouse/report.png")} />
+                </div>
+                <div class="col">
+                  <h3>Performance Reports</h3>
+                  <p>Every time Garie collects performance metrics it can store Lighthouse reports.</p>
+                  <p>This data can help you visually see what is happening in your applications & also tell where and how to improve.</p>
+
+                  <a class="learnmore" href="/docs/contribute">
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="feature feature-light">
+              <div class="content row">
+                <div class="col">
+                  <h3>Performance Videos</h3>
+                  <p>Garie also collects videos of your application, so you can visualy see what is happening thanks to the Browsertime Plugin.</p>
+
+                  <a class="learnmore" href="/docs/browsertime/introduction">
+                    Learn more
+                  </a>
+                </div>
+                <div class="col center">
+                  <img src={imgUrl("/docs/browsertime/video.gif")} />
+                </div>
+              </div>
+            </div>
+            <div className="feature-dark feature">
+              <div class="content row">
+                <div class="col center">
+                  <img width="50%" src="https://image.flaticon.com/icons/svg/919/919853.svg" />
+                </div>
+                <div class="col">
+                  <h3>Built with Docker</h3>
                   <p>Garie is built on a Docker architecture. Data is collected inside each of Garies plugin's (containers) and Garie reads the performance data collected.</p>
                   <p>All the plugins collect data and save it into InfluxDB. Garie then uses Grafana to help visualise the data.</p>
                   <p>Each plugin also has its own API, some even collect reports & videos which are all accessible.</p>
@@ -217,19 +269,13 @@ class Index extends React.Component {
                     Learn more
                   </a>
                 </div>
-                <div class="col center">
-                  <img width="50%" src="https://image.flaticon.com/icons/svg/919/919853.svg" />
-                </div>
               </div>
             </div>
 
-            <div className="darkest space-bg">
+            <div className="feature feature-light">
               <div class="content row">
-                <div class="col center">
-                  <img width="50%" src="https://image.flaticon.com/icons/svg/174/174249.svg" />
-                </div>
                 <div class="col">
-                  <h3>Contribute to Garie</h3>
+                  <h3>Garie is open source</h3>
                   <p>Garie was built to help people get a better understanding of web performance and an easy way to start monitoring your applications.</p>
                   <p>If you would like to contribute feel free to checkout the repository.</p>
 
@@ -237,42 +283,12 @@ class Index extends React.Component {
                     Learn more
                   </a>
                 </div>
+                <div class="col center">
+                  <img width="50%" src="https://image.flaticon.com/icons/svg/174/174249.svg" />
+                </div>
               </div>
             </div>
-
-            {/* <div className="space-bg">
-              <div class="content row">
-                <div class="col">
-                  <h4>Data Providers</h4>
-                  <h3>Lighthouse, Google Page Speed, Web Page Test</h3>
-                  <p>We fully support contributors from all over. If you would like to get involved checkout our code and get started!</p>
-                  <a class="learnmore" href="https://github.com/ComparetheMarket/meerstrap.universe">Learn more</a>
-                </div>
-                <div class="col center">
-                  <img src="http://axonix.com/wp-content/uploads/2014/12/whats-in-it-for-you.png" />
-                </div>
-              </div>
-            </div> */}
-
-            {/* <div className="space-bg">
-              <div class="content row">
-                <div class="col">
-                  <h4>Performance</h4>
-                  <h3>Why it matters</h3>
-                  <p>We fully support contributors from all over. If you would like to get involved checkout our code and get started!</p>
-                  <a class="learnmore" href="https://github.com/ComparetheMarket/meerstrap.universe">Learn more</a>
-                </div>
-                <div class="col center">
-                  <img src="http://axonix.com/wp-content/uploads/2014/12/whats-in-it-for-you.png" />
-                </div>
-              </div>
-            </div>  */}
           </div>
-          {/* <FeatureCallout /> */}
-          {/* <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase language={language} /> */}
         </div>
       </div>
     );

@@ -21,10 +21,17 @@
 }
 
 .productShowcaseSection,
-.space-bg {
-  background: #132b36;
+.feature {
   padding: 10px 0;
   color: white;
+}
+
+.feature-light {
+  background: #132b36;
+}
+
+.feature-dark {
+  background: #182025;
 }
 
 .feature-list ul {
@@ -40,10 +47,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 2em;
-}
-
-.darkest {
-  background: #182025;
 }
 
 .contribute .content.row {
@@ -79,7 +82,7 @@
 .features h3 {
   font-size: 7rem;
   font-weight: 100;
-  color: #d341ff;
+  color: #fff;
   margin: 0;
 }
 
@@ -197,7 +200,7 @@
 }
 
 .content {
-  max-width: 1000px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px 15px;
@@ -217,7 +220,7 @@
 }
 
 .col h3 {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 300;
   margin-bottom: 20px;
 }
