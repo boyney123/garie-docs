@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Introduction
+title: What is Garie
 ---
 
 Garie is an open source tool to monitor web performance built on a Docker architecture.
