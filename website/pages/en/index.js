@@ -84,9 +84,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href="/docs/using-garie/introduction">Getting Started</Button>
-            <Button href="docs/examples/list" target="_blank">
-              View Example
-            </Button>
+            <Button href="docs/examples/example-list">View Examples</Button>
           </PromoSection>
         </div>
       </SplashContainer>

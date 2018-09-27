@@ -9,7 +9,7 @@ title: Garie Examples
 
 Link to Grafana dashboard showing performance data.
 
-<a href="http://example.garie.io" target="_blank">Dashboard</a>
+<a href="http://example.garie.io/orgId=1&from=now-3h&to=now" target="_blank">Dashboard</a>
 
 ## Example Lighthouse Reports
 
