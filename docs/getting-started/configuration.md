@@ -25,7 +25,6 @@ Here are some cron examples:
 - `* 30 * * * *` - At 30 minutes
 - `0 */30 * * * *` - Every 30 minutes
 - `0 */30 9-17 * * *` - Every 30 minutes between 9:00am and 5:00pm
-- `0 */30 9-17 * * *` - Every 30 minutes between 9:00am and 5:00pm
 - `0 */4 * * *` - Every 4 hours
 - `00 30 11 * * 1-5` - Mon-Fri at 11:30am
 

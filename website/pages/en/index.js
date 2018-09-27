@@ -68,7 +68,7 @@ const ProjectTitle = () => (
 );
 
 const PromoSection = props => (
-  <div className="section promoSection">
+  <div className={`section promoSection ${props.className}`}>
     <div className="promoRow">
       <div className="pluginRowBlock">{props.children}</div>
     </div>
@@ -84,6 +84,9 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href="/docs/using-garie/introduction">Getting Started</Button>
+            <Button href="docs/examples/list" target="_blank">
+              View Example
+            </Button>
           </PromoSection>
         </div>
       </SplashContainer>

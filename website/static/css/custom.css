@@ -6,6 +6,10 @@
   /* background-image: linear-gradient(180deg, #269eac, #1e545a); */
 }
 
+.promoSection a {
+  margin-right: 20px;
+}
+
 .projectTitle,
 .projectTagLine {
   font-family: HelveticaNeue, serif;

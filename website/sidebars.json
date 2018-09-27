@@ -12,6 +12,7 @@
     "Dashboards": ["creating-your-own-dashboard/getting-started", "creating-your-own-dashboard/tips-and-tricks", "creating-your-own-dashboard/available-data"],
     "Plugins": ["plugins/lighthouse", "plugins/pagespeed-insights", "plugins/browsertime", "plugins/creating-a-plugin"],
     "Advanced": ["advanced/configure-devices", "advanced/exploring-data"],
+    "Examples": ["examples/list"],
     "Other tools": ["other-tools/speedcurve"]
   },
   "docs-other": {
