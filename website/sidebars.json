@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Introduction": ["using-garie/introduction", "using-garie/why-performance"],
+    "Introduction": ["using-garie/introduction"],
     "Getting Started": [
       "getting-started/installation",
       "getting-started/configuration",
@@ -9,11 +9,11 @@
       "getting-started/viewing-reports",
       "getting-started/viewing-videos"
     ],
-    "Dashboards": ["creating-your-own-dashboard/getting-started", "creating-your-own-dashboard/tips-and-tricks", "creating-your-own-dashboard/available-data"],
-    "Plugins": ["plugins/lighthouse", "plugins/pagespeed-insights", "plugins/browsertime", "plugins/creating-a-plugin"],
-    "Advanced": ["advanced/configure-devices", "advanced/exploring-data"],
+    "Dashboards": ["creating-your-own-dashboard/getting-started", "creating-your-own-dashboard/tips-and-tricks"],
+    "Plugins": ["plugins/lighthouse", "plugins/pagespeed-insights", "plugins/browsertime"],
+    "Advanced": ["advanced/exploring-data"],
     "Examples": ["examples/example-list"],
-    "Other tools": ["other-tools/speedcurve"]
+    "Extras": ["other-tools/list"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
