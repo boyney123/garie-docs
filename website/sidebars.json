@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Introduction": ["using-garie/introduction"],
+    "Introduction": ["using-garie/motivation", "using-garie/how-it-works"],
     "Getting Started": [
       "getting-started/installation",
       "getting-started/configuration",

@@ -39,8 +39,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { doc: "using-garie/motivation", label: "Introduction" },
     { doc: "getting-started/installation", label: "Getting Started" },
-    { doc: "using-garie/introduction", label: "How it works" },
     // { blog: true, label: "Blog" },
     { href: "https://github.com/boyney123/garie", label: "GitHub" }
   ],

@@ -83,7 +83,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="/docs/using-garie/introduction">Getting Started</Button>
+            <Button href="/docs/getting-started/installation">Getting Started</Button>
             <Button href="docs/examples/example-list">View Examples</Button>
           </PromoSection>
         </div>
