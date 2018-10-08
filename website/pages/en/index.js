@@ -211,7 +211,7 @@ class Index extends React.Component {
                 <div class="col">
                   <h3>Keep an eye on web performance</h3>
                   <p>
-                    Get started within minutes and start monitoring your applications performance. Garie uses Lighthouse, Pagespeed Insights & Browsertime to collect metrics. These metrics are
+                    Get started within minutes and start monitoring your application's performance. Garie uses Lighthouse, Pagespeed Insights & Browsertime to collect metrics. These metrics are
                     visualised with premade dashboards.
                   </p>
 
@@ -231,8 +231,8 @@ class Index extends React.Component {
                 </div>
                 <div class="col">
                   <h3>Performance Reports</h3>
-                  <p>Every time Garie collects performance metrics it can store Lighthouse reports.</p>
-                  <p>This data can help you visually see what is happening in your applications & also tell where and how to improve.</p>
+                  <p>Every time Garie collects performance metrics, it can store Lighthouse reports.</p>
+                  <p>This data can help you visually see what is happening in your applications & also tell you where and how to improve.</p>
 
                   <a class="learnmore" href="/docs/contribute">
                     Learn more
@@ -262,9 +262,9 @@ class Index extends React.Component {
                 </div>
                 <div class="col">
                   <h3>Built with Docker</h3>
-                  <p>Garie is built on a Docker architecture. Data is collected inside each of Garies plugin's (containers) and Garie reads the performance data collected.</p>
+                  <p>Garie is built on a Docker architecture. Data is collected inside each of Garie's plugins (containers) and Garie reads the performance data collected.</p>
                   <p>All the plugins collect data and save it into InfluxDB. Garie then uses Grafana to help visualise the data.</p>
-                  <p>Each plugin also has its own API, some even collect reports & videos which are all accessible.</p>
+                  <p>Each plugin also has its own API - some even collect reports & videos which are all accessible.</p>
 
                   <a class="learnmore" href="/docs/using-garie/introduction">
                     Learn more
