@@ -66,7 +66,7 @@ const siteConfig = {
   scrollToTop: true,
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Made by David Boyne`,
+  // copyright: `Made by <a>@boyney123</a>`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
