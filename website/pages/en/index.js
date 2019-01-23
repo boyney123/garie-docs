@@ -85,6 +85,9 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="/docs/getting-started/installation">Getting Started</Button>
             <Button href="docs/examples/example-list">View Examples</Button>
+            <Button href="https://join.slack.com/t/garieworkspace/shared_invite/enQtNTMxMDk3ODg3NDkxLTliOTdlODk3ZWVmM2MzOTMxNDc3ODk1YWRjMDI3OWY1MGNlYWJjNzhjYzZjZTJhZGJlNTM2YjdlNDU4ZDcxZDg">
+              Join Slack Community
+            </Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -174,11 +177,13 @@ const Showcase = props => {
     return null;
   }
 
-  const showcase = siteConfig.users.filter(user => user.pinned).map(user => (
-    <a href={user.infoLink} key={user.infoLink}>
-      <img src={user.image} alt={user.caption} title={user.caption} />
-    </a>
-  ));
+  const showcase = siteConfig.users
+    .filter(user => user.pinned)
+    .map(user => (
+      <a href={user.infoLink} key={user.infoLink}>
+        <img src={user.image} alt={user.caption} title={user.caption} />
+      </a>
+    ));
 
   return (
     <div className="productShowcaseSection paddingBottom">
