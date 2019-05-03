@@ -29,7 +29,7 @@ It's hopefully obvious by now that web performance is pretty important when it c
 
 ## Why Garie was built
 
-Garie was built with simplicity in mind and to help developers start monitoring their web peformance.
+Garie was built with simplicity in mind and to help developers start monitoring their web performance.
 
 Garie provides preconfigured dashboards, tooling and historic reporting to understand your applications web performance, and you can get setup within minutes thanks to the Docker architecture.
 

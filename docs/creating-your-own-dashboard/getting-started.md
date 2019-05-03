@@ -27,7 +27,7 @@ When clicking `Edit` you should be shown the panel at the bottom with all the co
 
 ## Displaying performance data in your panel
 
-Garie preconfigure's the Grafana data sources out the box. This means displaying data should be straight forward.
+Garie preconfigures the Grafana data sources out the box. This means displaying data should be straight forward.
 
 First look at the available data sources.
 
@@ -61,7 +61,7 @@ Down in the panel options, you should be able to see **WHERE** option in your qu
 
 Click on the + icon, select `url`, then select which ever url you want to visualise the data for.
 
-**Thats it**
+**That's it**
 
 You panel should now be showing some data which represents your Lighthouse Performance Score.
 
@@ -71,6 +71,6 @@ You panel should now be showing some data which represents your Lighthouse Perfo
 
 ## Further Reading
 
-Grafana has some great documentation, if your interested or want to know what else can be done, like alerting, graphs, panels, colors, setting baselines go checkout their documentation.
+Grafana has some great documentation, if your interested or want to know what else can be done, like alerting, graphs, panels, colours, setting baselines go checkout their documentation.
 
 [http://docs.grafana.org/guides/getting_started/](http://docs.grafana.org/guides/getting_started/)
