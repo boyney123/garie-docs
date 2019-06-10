@@ -11,7 +11,7 @@
     ],
     "Dashboards": ["creating-your-own-dashboard/getting-started", "creating-your-own-dashboard/tips-and-tricks"],
     "Plugins": ["plugins/lighthouse", "plugins/pagespeed-insights", "plugins/browsertime"],
-    "Advanced": ["advanced/exploring-data"],
+    "Advanced": ["advanced/exploring-data", "advanced/lighthouse-emulation"],
     "Examples": ["examples/example-list"],
     "Extras": ["other-tools/list"]
   },
