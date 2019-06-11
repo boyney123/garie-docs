@@ -32,7 +32,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: "garie",
   organizationName: "boyney123",
-  editUrl: "https://github.com/facebook/docusaurus/edit/master/docs/",
+  editUrl: "https://github.com/boyney123/garie-docs/tree/master/docs/",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
