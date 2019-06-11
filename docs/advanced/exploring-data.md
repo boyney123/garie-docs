@@ -23,7 +23,7 @@ You should then been shown a screen that allows you to view all the data in the 
 
 ![Querys](/img/docs/chronograf/query.png "query")
 
-Thats it.
+That's it.
 
 If you are interesting in reading more about chronograf make sure you checkout the docs.
 

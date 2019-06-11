@@ -5,7 +5,7 @@ title: Viewing Reports
 
 Garie generates Lighthouse Reports.
 
-![Lighthosue report](/img/docs/lighthouse/report.png "Lighthouse Report")
+![Lighthouse report](/img/docs/lighthouse/report.png "Lighthouse Report")
 
 ## Viewing Reports
 
@@ -21,4 +21,4 @@ Clicking on a folder will show you all the reports for that url.
 
 Clicking on a report will show you the Lighthouse report.
 
-![Lighthosue report](/img/docs/lighthouse/report.png "Lighthouse Report")
+![Lighthouse report](/img/docs/lighthouse/report.png "Lighthouse Report")

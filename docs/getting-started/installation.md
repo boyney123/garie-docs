@@ -72,7 +72,7 @@ Once you have configured your websites, go into the Garie directory and run:
 sh start.sh
 ```
 
-_This runs docker-compose with envirnoment variables set. First time round this might take a few minutes as it has to install all the docker images._
+_This runs docker-compose with environment variables set. First time round this might take a few minutes as it has to install all the docker images._
 
 ## Viewing Dashboards
 

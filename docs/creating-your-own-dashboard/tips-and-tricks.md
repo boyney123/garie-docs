@@ -19,7 +19,7 @@ Gauge's are a great way to visualise your performance budgets.
 
 ![Gauge](/img/docs/grafana/gauge/gauge.png "Gauge")
 
-#### Setting up your Gague
+#### Setting up your Gauge
 
 If you click on a Singlestat panel, and go into the panel settings.
 
@@ -28,6 +28,6 @@ If you click on a Singlestat panel, and go into the panel settings.
 
 ![Browsertime](/img/docs/grafana/gauge/gauge-settings.png "Gauge Settings")
 
-> Play around with extra settings to get the best visualisation of your data. For example if you click **Threshold labels** this will show the labels next to the gague.
+> Play around with extra settings to get the best visualisation of your data. For example if you click **Threshold labels** this will show the labels next to the gauge.
 
 ### More coming soon...
